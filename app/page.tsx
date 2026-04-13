@@ -11,6 +11,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { Activity, BarChart3, Brain, Users, Heart } from "lucide-react"
 
+// TVS Mitra Observability Platform - Main Dashboard
 export default function ObservabilityDashboard() {
   const [overviewData, setOverviewData] = useState(null)
   const [loanTrends, setLoanTrends] = useState([])
